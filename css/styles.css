@@ -455,16 +455,10 @@ COMMENTS SECTION
   color: #5fb3c4;
 }
 
-.quote-wrapper {
-  position: relative;
-  max-width: 700px;   
-  margin: 0 auto;
-}
-
 
 .quote-nav {
   position: absolute;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
   background: none;
   border: none;
@@ -507,9 +501,8 @@ COMMENTS SECTION
     transform 0.4s ease;
 }
 
-/* estado visible */
 .more-quotes-section.show {
-  max-height: 2000px; /* suficientemente grande */
+  max-height: 2000px; 
   opacity: 1;
   transform: translateY(0);
 }

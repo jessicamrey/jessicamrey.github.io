@@ -5,7 +5,7 @@ export const quotes = [
   },
   {
     author: "Sed ut perspiciatis unde",
-    text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium..."
+    text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium...Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugitNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugitNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugitNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugitNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit"
   },
   {
     author: "Finibus Bonorum et Malorum",
