@@ -481,7 +481,7 @@ COMMENTS SECTION
 }
 
 .quote-hero {
-  min-height: 70vh;
+  min-height: 40vh;
 
   display: flex;
   flex-direction: column;
@@ -565,15 +565,6 @@ COMMENTS SECTION
 		padding-left: 6%;
 		padding-right: 6%;
 	}
-	.quote-nav.left {
-	  left: -1rem !important;
-	}
-
-	.quote-nav.right {
-	  right: -1rem !important;
-	}
-
-
 }
 
 .quote-nav.left {
