@@ -6,6 +6,7 @@ let quotes = [];
 async function loadQuotes() {
   const response = await fetch("js/quotes.json");
   quotes = await response.json();
+  quotes = quotes.reverse();
 
   renderQuotes();
   renderPagination();
