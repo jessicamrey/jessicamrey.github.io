@@ -602,6 +602,9 @@ COMMENTS SECTION
 
 }
 
+#more-quotes-container {
+	overflow-y: auto;
+}
 .quote-nav.left {
   left: 1rem;
 }
