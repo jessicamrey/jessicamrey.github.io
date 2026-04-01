@@ -303,6 +303,7 @@ html, body {
     margin-top: 27%;
 	position: relative;
 	padding-bottom: 1%;
+	min-height: 30vh;
 
 }
 
@@ -442,9 +443,8 @@ COMMENTS SECTION
  FUNDRAISING SECTION
 ======================= */
 .fundraising-section {
-  height: 110vh;
   position: relative; 
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 .fundraising-section .text-warning{
@@ -457,6 +457,21 @@ COMMENTS SECTION
   left: 0;
   z-index: 10;
 }
+
+@media (max-width: 768px) {
+  .fundraising-right {
+	background: url("../img/henry-movil.PNG") center / cover no-repeat !important;
+  }
+}
+
+.fundraising-right {
+  background: url("../img/henry.PNG") center / cover no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 
 .fundraising-left {
   background: url("../img/pirkstein.PNG") center / cover no-repeat;
