@@ -255,6 +255,10 @@ html, body {
   margin-right: 9%;
 }
 
+.overlay.gold {
+  margin: 5%;
+}
+
 @media (max-width: 1440px) {
 	.overlay.blue {
 	  background: rgba(15, 35, 60, 0.75);
@@ -461,7 +465,13 @@ COMMENTS SECTION
 @media (max-width: 768px) {
   .fundraising-right {
 	background: url("../img/henry-movil.PNG") center / cover no-repeat !important;
+	  min-height: 150vh !important;
+
   }
+  
+  .fundraising-left {
+	  min-height: 120vh !important;
+	}
 }
 
 .fundraising-right {
@@ -487,9 +497,8 @@ COMMENTS SECTION
 }
 
 .subtitle {
-  font-size: 0.95rem;
+  font-size: 1.1rem;
   opacity: 0.8;
-    display: inline;
 }
 
 .subtitle a{
