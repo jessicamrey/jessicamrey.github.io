@@ -472,6 +472,10 @@ COMMENTS SECTION
   .fundraising-left {
 	  min-height: 120vh !important;
 	}
+	
+	.about-section {
+		height: 150vh !important;
+	}
 }
 
 .fundraising-right {
